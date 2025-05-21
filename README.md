@@ -2,11 +2,11 @@
 
 ##  Overview
 
-This project demonstrates the installation, configuration, and validation of a Domain Name System (DNS) server in a Windows Server environment. The implementation supports both **Forward Lookup Zones** and **Reverse Lookup Zones**, enabling hostname-to-IP and IP-to-hostname resolution. This configuration simulates core infrastructure typically deployed in enterprise network environments.
+This project demonstrates the installation, configuration, and validation of a Domain Name System (DNS) server in a Windows Server environment. The implementation supports both Forward and Reverse Lookup Zones, enabling hostname-to-IP and IP-to-hostname resolution. 
 
 ---
 
-##  Project Objectives
+##  Objectives
 
 - Deploy a DNS server in Windows Server 2019
 - Create and manage a primary **Forward Lookup Zone**.
