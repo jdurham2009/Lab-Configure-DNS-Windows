@@ -21,12 +21,14 @@ This project demonstrates the installation, configuration, and validation of a D
 
 | Component           | Value                           |
 |---------------------|----------------------------------|
-| OS                  | Windows Server 2019              |
-| Static IP           | `172.31.24.15`                   |
-| DNS Zone Name       | `pluralsight.lab.local`          |
-| Host Record         | `test1` → `192.168.10.1`         |
-| Reverse Zone        | `192.168.10.0` → PTR zone        |
-| DNS Server Address  | `127.0.0.1` (loopback interface) |
+| OS                  | Windows Server 2019 ![Server](Images/server-manager.png)  |
+| Static IP           | `172.31.24.15` ![Static IP](Images/static-ip.png)         |
+| DNS Install         |  Install ![Install](Images/dns-install.png)               |
+| DNS Zone Name       | `pluralsight.lab.local`![DNS Zone](Images/dns-zone.png)|
+| Host Record         | `test1` → `192.168.10.1` ![Host Record](Images/forward-host-A.png)   |
+| Reverse Zone        | `192.168.10.0` → PTR zone ![Pointer Record](Images/pointer-record.png)       |
+| DNS Server Address  | `127.0.0.1` ![DNS Server](Images/dns-server.png) |
+| Test (nslookup)     | NsLookup ![nslookup](Images/nslookup.png)
 
 ---
 
